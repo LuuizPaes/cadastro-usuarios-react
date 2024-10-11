@@ -1,0 +1,59 @@
+*REACT
+
+prompt - install yarn - npm install --global yarn
+Vite - pepara o ecocistema da nossa aplicação react
+yarn create vite
+no prompt - npm create vite@latest
+
+terminal comandos.
+ls -listar
+clear - limpar
+cd - entrar na pasta - cd desktop
+cd .. - voltar
+mkdir - cria uma pasta 
+rmdir - excluir pasta
+
+-----------------criando projeto
+cd desktop
+npm create vite@latest
+
+no react, componentes são funções e sempre com letra maiuscula.
+ex: function App() {}
+
+- sempre precisa ter uma div agrupando todo mundo no return
+- posso usar variaveis utilizando {}
+
+ferramentas para usar css no rect.
+-stitches
+-sass
+-tailwind
+-styled components - yarn add styled-components
+
+--------------
+estilizando sem precisar criar component.
+<h1 style={{color: 'red', fontSize: 30}} obs: se quiser usar % coloca ''. ex: fontSize: '40%'
+
+/*
+  exportar "padrão" (export default App) - uma coisa só por pagina
+  apenas exportar (export function App2()) sempre antes da função
+*/
+
+import App from './App.jsx' // default
+//import {App, App2} from './App.jsx' // export sem default, se quiser mudar o nome: {App2 as abacate}
+
+Organizar pastas:
+Cria pages e components.
+pages - pagina iteira do site, ex: home.
+
+onClick <---
+
+Hoocks
+useRef - capturar dadode input ou algum outro componente.
+
+*conectar com back end, conectar com servidor existem varias bibliotecas (axios)
+
+-------------------
+Erro CORS - npm install cors
+importa no back end :
+import cors from 'cors'
+app.use(cors())
