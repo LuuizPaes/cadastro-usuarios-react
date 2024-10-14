@@ -3,8 +3,8 @@
 Este projeto consiste em um sistema de cadastro de usuários, que permite o registro, visualização e exclusão de informações básicas. As principais funcionalidades incluem:
 
 ## Funcionalidades 💻
-Cadastro de Usuários:
-Campos obrigatórios: nome, idade e e-mail.
+- Cadastro de Usuários,
+- Campos obrigatórios: nome, idade e e-mail.
 
 ## Tecnologias Utilizadas:
 Frontend e Backend: HTML, CSS, React, Node.js,MongoDB, Express.
