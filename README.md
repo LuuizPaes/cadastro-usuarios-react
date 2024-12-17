@@ -7,7 +7,7 @@ Este projeto consiste em um sistema de cadastro de usuários, que permite o regi
 - Campos obrigatórios: nome, idade e e-mail.
 
 ## Tecnologias Utilizadas:
-Frontend e Backend: HTML, CSS, React, Node.js,MongoDB, Express.
+Frontend e Backend: HTML, CSS, React, Node.js,MongoDB, Express, Vite.
 
 
 ## mockup do projeto
